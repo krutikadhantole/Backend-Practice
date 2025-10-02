@@ -1,15 +1,26 @@
 {
-  "name": "middleware",
+  "name": "backend-topic-practice",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krutikadhantole/Backend-Practice.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krutikadhantole/Backend-Practice/issues"
+  },
+  "homepage": "https://github.com/krutikadhantole/Backend-Practice#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.2"
   }
 }
